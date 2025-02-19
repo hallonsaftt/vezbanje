@@ -32,7 +32,7 @@ return new class extends Migration
     {
         Schema::table('ocene', function (Blueprint $table) {
 
-
+            //gg
             $table->dropForeign(['new_user_id']);
             $table->dropColumn('new_user_id');
 
